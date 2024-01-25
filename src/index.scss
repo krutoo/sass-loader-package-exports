@@ -1,0 +1,25 @@
+@use "node_modules/my-library/utils.scss"; // not working
+// @use "node_modules/my-library/utils"; // also not working
+// @use "my-library/utils.scss"; // also not working
+// @use "my-library/utils"; // also not working
+
+* {
+  padding: 0;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: inherit;
+  line-height: inherit;
+}
+
+body {
+  background: #ddd;
+  padding: 32px;
+}
+
+#root {
+  width: 320px;
+  height: 240px;
+  background: #fff;
+}
