@@ -8,9 +8,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "files": [
-    "src"
-  ],
   "exports": {
     "./utils.scss": "./src/utils.scss"
   }

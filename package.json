@@ -2,7 +2,6 @@
   "name": "sass-loader-package-exports",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "webpack serve"
   },
@@ -24,7 +23,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "my-library": "file:my-library-1.0.0.tgz",
+    "my-library": "file:my-library/my-library-0.0.0.tgz",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
